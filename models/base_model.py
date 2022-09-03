@@ -36,6 +36,7 @@ class BaseModel:
     def to_dict(self):
         """Return the dictionary of the BaseModel instance.
 
+<<<<<<< HEAD
         Includes the key/value pair __class__ representing
         the class name of the object.
         """
@@ -49,3 +50,6 @@ class BaseModel:
         """Return the print/str representation of the BaseModel instance."""
         clname = self.__class__.__name__
         return "[{}] ({}) {}".format(clname, self.id, self.__dict__)
+=======
+        return to_dict
+>>>>>>> 13b6eab543ed0ae90ced0e5ef4fd6880457b4b60
