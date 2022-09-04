@@ -1,7 +1,10 @@
 # 0x00. AirBnB clone - The console
 
 ![HolBnB clone](./hBnB.png)
-Welcome to the AirBnB clone project!
+Welcome to the AirBnB clone project! This project is a complete web application, integrating database storage,
+a back-end API, and front-end interfacing in a clone of AirBnB.
+
+The repository currently only implements the back-end console.
 
 ## Getting Started
 
